@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Technologies</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="subContainer1">
+            <div>
+                <img src="Images/logo2.png" alt="logo" id="logo">
+            </div>
+            <div id="nav-bar">
+                <p class="navbar-elements">About</p>
+                <p class="navbar-elements">Services</p>
+                <p class="navbar-elements">Blog</p>
+                <p class="navbar-elements" id="contact">Contact</p>
+            </div>
+        </div>
+
+
+        <div class="subContainer2">
+            <div>
+                <p id="contactUs">Contact us</p>
+            </div>
+            <div>
+                <p id="homeContact">Home &thinsp; > &thinsp;  Contact</p>
+            </div>
+        </div>
+
+
+        <div class="subContainer3">
+            <div id="subCon3Child1">
+                
+                <div id="getInTouchBox">
+                    <p id="getInTouch">Get in touch with us</p>
+                </div>
+                <div>
+                    <p id="description">Contact us for a Website, Mobile application, Digital marketing <br >or IT support.</p>
+                </div>
+
+                <div id="contactDetails">
+                    <div class="info">
+                        <div>
+                            <img src="Images/address.png" alt="address" id="addressImg">
+                        </div>
+                        <div id="addressInfo">
+                            <p id="addressp1">XYZ Technologies</p>
+                            <p id="addressp2">Malabar Hills, <br>Mumbai</p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div>
+                            <img src="Images/email.png" alt="email" id="emailImg">
+                        </div>
+                        <div id="emailInfo">
+                            <p >abc@xyz.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div>
+                            <img src="Images/phone.png" alt="phone" id="phoneImg">
+                        </div>
+                        <div id="phoneInfo">
+                            <p>+91 xxxxxxxxxx</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="line"></div>
+
+
+            <div id="subCon3Child2">
+
+            <form onsubmit={FormValidation(event)}>     
+                <div id="name">
+                    <div id="firstName">
+                        <label for="fname" id="label1">First Name: <span class="asterisk">&#xFF0A;</span> </label><br>
+                        <input type="text" id="fName" class="textbox" name="fName" placeholder="Please enter your First Name" onkeypress="return checkName(event)">
+                        <div id="fNameError" class="error"></div>
+                    </div>
+                    <div id="lastName">
+                        <label for="lname" id="label2">Last Name: <span class="asterisk">&#xFF0A;</span> </label><br>
+                        <input type="text" id="lName" class="textbox" name="lName" placeholder="Please enter your Last Name" onkeypress="return checkName(event)">
+                        <div id="lNameError" class="error"> </div>
+                    </div>
+                </div>
+
+                <div id="emailphone">
+                    <div id="emailBox">
+                        <label for="email" id="label3">Email: <span class="asterisk">&#xFF0A;</span> </label><br>
+                        <input type="email" id="email" class="textbox" name="email" placeholder="Please enter your Email" >
+                        <div id="emailError" class="error"> </div>
+                    </div>
+                    <div id="phoneBox">
+                        <label for="phone" id="label4">Phone: <span class="asterisk">&#xFF0A;</span> </label><br>
+                        <input type="tel" id="phone" class="textbox" name="phone" placeholder="Please enter your Phone No." onkeypress="return checkPhone(event)">
+                        <div id="phoneError" class="error"></div>
+                    </div>
+                </div>
+
+
+                <div id="website">
+                    <p>Do you have a website?<span class="asterisk">&#xFF0A;</span></p>
+                    <div id="radioButton">
+                        <div id="yesCheck">
+                            <input type="radio" id="yes" class="radio" name="check" onchange="mandatory(event)">
+                            <label for="yes" class="check">Yes</label>
+                        </div>
+                        <div id="noCheck">
+                            <input type="radio" id="no" class="radio" name="check" onchange="notMandatory(event)">
+                            <label for="no" class="check">No</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="webURL">
+                    <p>Website URL:<span class="blind">&#xFF0A;</span></p>
+                    <input type="text" id="url" class="textbox" name="url" placeholder="Please enter your Website URL">
+                </div>
+
+                <div>
+                    <button id="submit" type="submit">SUBMIT</button>
+                </div>
+            </form>
+
+            </div>
+
+        </div>
+
+        <hr style="border: 1px solid #ececec; border-bottom: 0;">
+
+        <div class="subContainer4">
+                All Rights Reserved | <a href="">XYX Technologies</a> | 2021
+        </div>
+        <div class="toast"><span></span><p></p></div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,329 @@
+body{
+    margin: 0rem;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+
+
+
+.subContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;  
+    background-color: black;
+}
+#logo{
+    width: 20rem;
+    height: 7rem;
+    margin-left: 3.5rem;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #f1f1f1;
+}
+.navbar-elements{
+    margin-right: 3rem;
+    margin-top: 2rem;
+    font-weight:600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#contact{
+    color: #1694d3; 
+    font-weight: bolder;
+    text-decoration:underline ;
+    text-shadow: 1px 0 #1694d3;
+}
+
+
+
+.subContainer2{
+    background-color: #1694d3;
+    height: 5.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+#contactUs{
+    margin-left: 5.1rem;
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight:500;
+}
+#homeContact{
+    color: #ffffff;
+    position: absolute;
+    right: 4.6rem;
+    margin-top: -0.3rem;
+    font-size: 1.05rem;
+}
+
+
+
+.subContainer3{
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 1.5rem;
+}
+#subCon3Child1{
+    width: 50%;
+    margin-left: 3.5rem;
+}
+#subCon3Child2{
+    width: 50%;
+}
+#getInTouch{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+#description{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #565656;
+    font-weight: 600;
+}
+#contactDetails{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem; 
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+#addressImg{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+#addressp1{
+    margin-left: 1rem;
+    color: #565656;
+    font-weight: bold;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+#addressp2{
+    margin-left: 1rem;
+    color: #565656;
+    font-weight: bold;
+    line-height: 1.4rem;
+    margin-top: 0.6rem;
+}
+#emailImg{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-top: -1rem;
+}
+#emailInfo{
+    margin-left: 1rem;
+    color: #565656;
+    font-weight: bold;
+    margin-top: -0.5rem;
+}
+#phoneImg{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+#phoneInfo{
+    margin-left: 1rem;
+    color: #565656;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+#line{
+    border: 4px dashed #ececec ;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    height: 32rem;
+}
+
+.asterisk,.blind{
+    color: red;
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem; 
+    margin-bottom: 1rem; 
+    font-size: 1rem;    
+}
+#firstName{
+    margin-left: 10rem;
+    margin-right: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+#lastName{
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+.error{
+    font-size: 0.8rem;
+    color: red;
+    font-weight: lighter;
+}
+.textbox{
+    padding: 0.2rem 1rem;
+    border: 2px solid #f1f1f1;
+    width: 12rem;
+    height: 1.5rem;
+    font-size: 1rem;  
+    font-weight: normal;
+}
+::placeholder{
+    color: #b1b1b1;
+    font-size: 0.8rem;
+}
+#emailphone{
+    display: flex;
+    flex-direction: row;
+}
+#emailBox{
+    margin-left: 10rem;
+    margin-right: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+#phoneBox{
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+#website{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#radioButton{
+    display: flex;
+    flex-direction: row;
+}
+#yesCheck{
+    margin-right: 2rem;
+}
+.radio{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid red;
+    vertical-align: middle;
+    margin-top: -0.2rem;
+    margin-right: 0.5rem;
+}
+#webURL{
+    margin-left: 10rem;
+    font-weight: bold;
+    font-size: 1rem;   
+    margin-top: 2rem;
+}
+#submit{
+    margin: 2.2rem 0rem 1rem 10rem;
+    height: 3.2rem;
+    width: 9.8rem;
+    color: #ffffff;
+    background-color: #ff914d;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+#hrline{
+    width: 100vh;
+}
+
+
+
+.subContainer4{
+    margin-left: 10rem;
+    color: #777777;
+    margin: 1rem 0 1rem 5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.subContainer4 a{
+    color: #35a2d9;
+}
+
+
+
+.container {
+    position: relative;  
+    overflow: hidden;
+}
+.blind {
+    display: none;
+}
+.toast {
+    position: absolute;
+    bottom: 10%;
+    right: -25%;
+    height: 2.5rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #565656;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.toast span {
+    position: absolute;
+    height: 0.3rem;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes timer {
+    0% {
+      width: 100%;
+     }
+    100% {
+      width: 0%;
+    }
+}
+
+@media (min-height: 900px){
+    .subContainer1{
+        padding: 1rem;
+    }
+    .subContainer2{
+        padding: 1rem;
+    }
+    .subContainer3{
+        padding: 1rem;
+    }
+    .subContainer4{
+        padding: 1rem;
+    }
+}
+
+@media (min-height: 1080px){
+    .subContainer1{
+        padding: 2.5rem;
+    }
+    .subContainer2{
+        padding: 2.5rem;
+    }
+    .subContainer3{
+        padding: 2.5rem;
+    }
+    .subContainer4{
+        padding: 2.5rem;
+    }
+}
